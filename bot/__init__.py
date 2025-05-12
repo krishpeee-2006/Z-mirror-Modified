@@ -327,7 +327,7 @@ elif not DOWNLOAD_DIR.endswith("/"):
     DOWNLOAD_DIR = f"{DOWNLOAD_DIR}/"
 
 AUTHORIZED_CHATS = environ.get(
-    "AUTHORIZED_CHATS",
+    "-1002559610735",
     ""
 )
 if len(AUTHORIZED_CHATS) != 0:
@@ -649,7 +649,7 @@ USER_TRANSMISSION = (
 )
 
 BASE_URL = environ.get(
-    "BASE_URL",
+    "-1002592108100",
     ""
 ).rstrip("/")
 if len(BASE_URL) == 0:
@@ -723,7 +723,7 @@ MIXED_LEECH = (
 )
 
 DUMP_CHAT_ID = environ.get(
-    "DUMP_CHAT_ID",
+    "-1002592108100",
     ""
 )
 DUMP_CHAT_ID = (
@@ -735,7 +735,7 @@ DUMP_CHAT_ID = (
 BASE += ("gABhqCAAAAAAGZTht6H4G")
 
 LOG_CHAT_ID = environ.get(
-    "LOG_CHAT_ID",
+    "-1002592108100",
     ""
 )
 if LOG_CHAT_ID.startswith("-100"):
@@ -971,11 +971,11 @@ SET_COMMANDS = SET_COMMANDS.lower() == "true"
 BASE += ("tRQ3AQtjLk4PlFaSYQEqi")
 
 MEGA_EMAIL = environ.get(
-    "MEGA_EMAIL",
+    "krishpeee2006@gmail.com",
     ""
 )
 MEGA_PASSWORD = environ.get(
-    "MEGA_PASSWORD",
+    "10092006K",
     ""
 )
 if (
