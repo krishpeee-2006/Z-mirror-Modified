@@ -111,7 +111,7 @@ non_queued_up = set()
 multi_tags = set()
 
 try:
-    if bool(environ.get("_____REMOVE_THIS_LINE_____")):
+    if bool(environ.get("")):
         log_error("The README.md file there to be read! Exiting now!")
         exit(1)
 except:
@@ -133,7 +133,7 @@ JAVA = ("uJjxvDIuQLVbyMZ61fyl7")
 
 
 BOT_TOKEN = environ.get(
-    "BOT_TOKEN",
+    "8104621260:AAFN4jNn0ub6RZavr4AV8yYaVPlx2A7j_88",
     ""
 )
 if len(BOT_TOKEN) == 0:
@@ -146,7 +146,7 @@ BOT_ID = BOT_TOKEN.split(
 )[0]
 
 DATABASE_URL = environ.get(
-    "DATABASE_URL",
+    "mongodb+srv://krishpeee2006:0KxUbfM8VfwLJ9Yt@cluster0.oylkcog.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     ""
 )
 if len(DATABASE_URL) == 0:
@@ -203,7 +203,7 @@ if DATABASE_URL:
             qbit_options = qbit_opt
         conn.close()
         BOT_TOKEN = environ.get(
-            "BOT_TOKEN",
+            "8104621260:AAFN4jNn0ub6RZavr4AV8yYaVPlx2A7j_88",
             ""
         )
         BOT_ID = BOT_TOKEN.split(
@@ -211,7 +211,7 @@ if DATABASE_URL:
             1
         )[0]
         DATABASE_URL = environ.get(
-            "DATABASE_URL",
+            "mongodb+srv://krishpeee2006:0KxUbfM8VfwLJ9Yt@cluster0.oylkcog.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             ""
         )
     except Exception as e:
@@ -231,7 +231,7 @@ hrun(
 )
 
 OWNER_ID = environ.get(
-    "OWNER_ID",
+    "7726957816",
     ""
 )
 if len(OWNER_ID) == 0:
@@ -241,7 +241,7 @@ else:
     OWNER_ID = int(OWNER_ID)
 
 TELEGRAM_API = environ.get(
-    "TELEGRAM_API",
+    "12549763",
     ""
 )
 if len(TELEGRAM_API) == 0:
@@ -251,7 +251,7 @@ else:
     TELEGRAM_API = int(TELEGRAM_API)
 
 TELEGRAM_HASH = environ.get(
-    "TELEGRAM_HASH",
+    "21bc68e1b9f0ab207fc5bb88a23fb56c",
     ""
 )
 if len(TELEGRAM_HASH) == 0:
@@ -290,14 +290,14 @@ else:
     user = ""
 
 GDRIVE_ID = environ.get(
-    "GDRIVE_ID",
+    "1Ye78dLYV-CXnG8x1tKyf8quADe-MS9oN?usp=drive_link",
     ""
 )
 if len(GDRIVE_ID) == 0:
     GDRIVE_ID = ""
 
 RCLONE_PATH = environ.get(
-    "RCLONE_PATH",
+    "-1002592108100",
     ""
 )
 if len(RCLONE_PATH) == 0:
