@@ -66,14 +66,14 @@ load_dotenv(
 )
 
 try:
-    if bool(environ.get("_____REMOVE_THIS_LINE_____")):
+    if bool(environ.get("")):
         log_error("The README.md file there to be read! Exiting now!")
         exit(1)
 except:
     pass
 
 BOT_TOKEN = environ.get(
-    "BOT_TOKEN",
+    "8104621260:AAFN4jNn0ub6RZavr4AV8yYaVPlx2A7j_88",
     ""
 )
 if len(BOT_TOKEN) == 0:
@@ -86,7 +86,7 @@ BOT_ID = BOT_TOKEN.split(
 )[0]
 
 DATABASE_URL = environ.get(
-    "DATABASE_URL",
+    "mongodb+srv://krishpeee2006:0KxUbfM8VfwLJ9Yt@cluster0.oylkcog.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     ""
 )
 if len(DATABASE_URL) == 0:
